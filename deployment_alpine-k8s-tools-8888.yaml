@@ -4,7 +4,7 @@ metadata:
   name: frontendpod-8888
   labels:
     app: frontendpod-8888 
-  #namespace: project1ns 
+  namespace: project3ns 
 spec:
   replicas: 2
   selector:
@@ -14,7 +14,7 @@ spec:
     metadata:
       labels:
         app: frontendpod-8888 
-        project: project1
+        project: project3
         netzone: frontend
     spec:
       containers:
